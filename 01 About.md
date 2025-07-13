@@ -16,3 +16,10 @@ Lyvora is an open-source project. All code is publicly available, so anyone can 
 
 Lyvora solves the problem of dependency on centralized platforms that charge high fees, control seller access, and can arbitrarily hold funds. In addition, it eliminates the massive collection of users’ personal data that occurs in traditional marketplaces, protecting privacy and reducing the risks of misuse of this information. It also removes geographical barriers and censorship restrictions over the trade of physical products.
 
+# What does it enable?
+
+Lyvora enables anyone to buy and sell physical products in a decentralized way, without relying on centralized platforms that control payments and visibility. Sellers can receive payments directly in cryptocurrency with automatic custody through smart contracts, while buyers have access to a global marketplace without geographical restrictions. All reputation history is recorded on-chain, increasing trust in transactions.
+
+ # What makes it different?
+ 
+Lyvora stands out by not requiring KYC and operating in a fully decentralized way. It does not arbitrarily hold funds or block users. Reputation is recorded on-chain and visible to everyone. The platform charges only a fixed 2.5% fee per transaction and offers cashback rewards to buyers, making commerce more accessible and transparent compared to traditional marketplaces.
