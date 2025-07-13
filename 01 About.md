@@ -26,13 +26,13 @@ Lyvora stands out by not requiring KYC and operating in a fully decentralized wa
 
 # What is the philosophy of the project?
 
- ## Our vision
+ ### Our vision
 - To create a truly decentralized marketplace that connects people around the world, with fewer intermediaries and more freedom.
 
-## Our mission
+### Our mission
 - To make the trade of physical products more accessible, transparent, and secure through blockchain technology.
 
-## Our values
+### Our values
 
 - Autonomy
 Users should have full control over their funds and their data.
