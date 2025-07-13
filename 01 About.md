@@ -11,3 +11,8 @@ Unlike centralized platforms such as Amazon or Mercado Livre, Lyvora does not ch
 Our purpose is to give control back to people, allowing anyone to participate in global commerce with autonomy, fairer costs, and the freedom to manage their own assets.
 
 Lyvora is an open-source project. All code is publicly available, so anyone can review, audit, or contribute to its development.
+
+## What problem does it solve?
+
+Lyvora solves the problem of dependency on centralized platforms that charge high fees, control seller access, and can arbitrarily hold funds. In addition, it eliminates the massive collection of users’ personal data that occurs in traditional marketplaces, protecting privacy and reducing the risks of misuse of this information. It also removes geographical barriers and censorship restrictions over the trade of physical products.
+
