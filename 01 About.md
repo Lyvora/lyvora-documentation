@@ -23,3 +23,40 @@ Lyvora enables anyone to buy and sell physical products in a decentralized way, 
  # What makes it different?
  
 Lyvora stands out by not requiring KYC and operating in a fully decentralized way. It does not arbitrarily hold funds or block users. Reputation is recorded on-chain and visible to everyone. The platform charges only a fixed 2.5% fee per transaction and offers cashback rewards to buyers, making commerce more accessible and transparent compared to traditional marketplaces.
+
+# What is the philosophy of the project?
+
+ ## Our vision
+- To create a truly decentralized marketplace that connects people around the world, with fewer intermediaries and more freedom.
+
+## Our mission
+- To make the trade of physical products more accessible, transparent, and secure through blockchain technology.
+
+## Our values
+
+- Autonomy
+Users should have full control over their funds and their data.
+
+- Privacy
+No personal data is required by default. Each user decides what to share.
+
+- Transparency
+Reputation and transaction history are recorded on-chain and auditable by anyone.
+
+- Security
+All transactions are protected by auditable smart contracts.
+
+- Market Freedom
+Anyone can buy and sell without geographical restrictions or censorship.
+
+- Innovation
+We believe that integrating blockchain with real-world logistics can transform global commerce.
+
+- Sustainability
+We aim to create a viable economic ecosystem in the long term, without relying solely on speculation.
+
+- Governance and Community
+We value the community’s participation in the development and future decisions of the project.
+- Token Usage
+The platform will accept payments in SUI, stablecoins, and Lyvora’s native token $LYV, which will offer exclusive benefits to users such as discounts, increased cashback, and access to premium features.
+
