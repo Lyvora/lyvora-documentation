@@ -1,4 +1,4 @@
-#What is Lyvora?
+# What is Lyvora?
 
 Lyvora is a decentralized marketplace that enables global trade of physical products by combining cryptocurrency payments with escrow smart contracts.
 
