@@ -1,4 +1,4 @@
-# Overview
+#  Protocol
 The Lyvora protocol was designed to combine the benefits of decentralization with the practicality required for trading physical products. It addresses common issues found in traditional platforms, such as high fees, arbitrary account freezes, and excessive collection of personal data.
 
 Through auditable smart contracts and an automatic escrow custody system, Lyvora enables secure transactions without financial intermediaries. At the same time, it transparently integrates SaaS logistics services, making real-world delivery and tracking possible.
