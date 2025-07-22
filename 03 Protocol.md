@@ -100,15 +100,13 @@ Automatic reminder messages are displayed during this period.
 
 1️⃣2️⃣ **Buyer Decision**
 
-┌────────────────────┬────────────────────────┐
+### Buyer Decision
 
-│ ✅ Product OK      │ ❌ Product Issue      │
+| Situation         | Action Taken      | Result                   |
+|-------------------|-------------------|---------------------------|
+| ✅ Product OK      | Confirms receipt  | 💰 Payment is released     |
+| ❌ Product Issue   | Opens dispute     | ⚠️ Dispute mode activated  |
 
-│ Confirms           │ Opens dispute          │   
-
-│ Payment released   │ Dispute mode activated │
-
-└────────────────────┴────────────────────────┘
 
 ⬇️
 
