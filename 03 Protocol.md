@@ -136,17 +136,27 @@ Buyers can open disputes if the delivered product is incorrect, damaged, or inco
 
 
   #  Reputation System
-  ### Each wallet maintains an immutable history that includes:
+  ### Each wallet address has a public on-chain reputation profile.
 
-- Completed transactions.
+- Metrics include:
+
+- Number of completed transactions.
 
 - Disputes and outcomes.
 
-- Ratings received.
+- Response times.
 
--Trust indicators.
+- Peer feedback from other verified users.
 
-In the future, the protocol may issue reputation NFTs to attest to user credibility.
+### Key features:
+
+- Reputation is non-transferable.
+
+- New wallets are labeled "No History."
+
+- Reputation manipulation and Sybil attacks are discouraged through behavioral pattern detection and transparent history.
+
+
  # On-Chain Events
 ### The protocol emits public on-chain events such as:
 
