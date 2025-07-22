@@ -17,6 +17,8 @@ This repository contains the core documentation for the Lyvora protocol.
 - [`06 Developers.md`](06%20Developers.md)  Contribution guide for devs  
 - [`07 References.md`](07%20References.md)  Research, Web3, and e-commerce sources  
 - [`08 FAQ.md`](08%20FAQ.md) — Frequently Asked Questions and beginner help
+- Please read [CONTRIBUTING](./CONTRIBUTING.md) before submitting a pull request.
+
 
 ---
 
