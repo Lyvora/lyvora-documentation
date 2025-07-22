@@ -164,7 +164,19 @@ In the future, the protocol may issue reputation NFTs to attest to user credibil
 
 These events enable public auditability and transparency.
 # Future Roadmap: Oracle Integration
-Currently, delivery confirmation relies on SaaS API integrations. In the future, support for public oracles (such as Chainlink and Supra Oracles) will be considered to record delivery confirmations directly on-chain. At this time, none of these solutions offer official support for SUI, but we will monitor ecosystem developments. As an alternative, Lyvora may develop its own proprietary oracle.
+Currently, delivery confirmation is handled through SaaS API integrations with logistics partners. In the future, Lyvora will integrate decentralized oracle providers compatible with the SUI blockchain to bring delivery confirmations fully on-chain.
+
+### Oracles will be used to:
+
+- Confirm delivery events and status updates.
+
+- Submit verifiable tracking data.
+
+- Calculate real-time exchange rates.
+
+This enhances transparency and automates escrow logic without relying on manual intervention.
+
+
 
 # $LYV Token – Present and Future Uses
 ### In addition to cashback, the $LYV token has strategic purposes:
