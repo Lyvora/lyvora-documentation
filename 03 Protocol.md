@@ -169,7 +169,7 @@ Buyers can open disputes if the delivered product is incorrect, damaged, or inco
 - Feedback and ratings
 
 These events ensure full transparency and public auditability.
-# Future Roadmap: Oracle Integration
+# Oracle Integration
 Currently, delivery confirmation is handled through SaaS API integrations with logistics partners. In the future, Lyvora will integrate decentralized oracle providers compatible with the SUI blockchain to bring delivery confirmations fully on-chain.
 
 ### Oracles will be used to:
