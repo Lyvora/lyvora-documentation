@@ -11,7 +11,7 @@ This repository contains the core documentation for the Lyvora protocol.
 ## 📚 Documentation
 
 - [`about.md`](about.md) — What is Lyvora and why it exists
-- 02 Getting Started.md — How to set up and test the project
+- https://github.com/Lyvora/lyvora-documentation/blob/fd4668007cc913203aa6d213f58f9a7225899410/02%20Getting%20Started.md — How to set up and test the project
 - [`03 Protocol.md`](03%20Protocol.md) — How the protocol works  
 - [`04 Architecture.md`](04%20Architecture.md) — Technical architecture and modules  
 - [`05 Roadmap.md`](05%20Roadmap.md) — Development phases  
