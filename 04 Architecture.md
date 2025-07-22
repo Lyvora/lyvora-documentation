@@ -115,7 +115,45 @@ Off-chain Data:
 IPFS Integration:
 Any file submitted as part of a dispute (e.g., photo or video) is uploaded via IPFS.
 Only the IPFS hash is stored on-chain, ensuring verifiability without exposing sensitive data or increasing gas costs.
+# 6. Security Model
+Security is embedded in Lyvora’s architecture from the start.
 
+Contract Security:
+- All smart contracts will be open-source
+
+- Audits will be conducted by independent Web3 security firms before mainnet
+
+- Contracts are immutable after deployment
+
+- Replay protection and unique transaction IDs prevent duplication
+
+### Timers & Automation:
+- On-chain timers handle all deadlines (48-hour reviews, shipping delays)
+
+- Fallback logic ensures refunds if contracts fail
+
+- No human can manually release funds or override rules
+###  Treasury & Access Control:
+- Project treasury is secured with multisig wallets
+
+- Only verified multisig holders can authorize updates or expenditures
+
+### Monitoring & Bug Bounty:
+- Automated monitoring will detect unusual patterns
+
+- A public bug bounty program will be launched after testnet
+  # 7. Scalability & Modular Architecture
+ Lyvora is designed to scale globally and evolve over time:
+- Modular smart contract design allows future upgrades (e.g., integrated DEX, NFT reputation, mobile wallet support)
+
+- Off-chain components (like shipping integrations) can be replaced or extended without affecting core logic
+
+- On-chain actions are gas-efficient and optimized for batch processing
+
+- Compatible with thousands of concurrent users
+  This separation of concerns between critical on-chain value logic and flexible off-chain operations makes Lyvora adaptable, resilient, and future-ready.
+
+  
 
 
 
