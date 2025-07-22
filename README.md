@@ -9,7 +9,7 @@ This repository contains the core documentation for the Lyvora protocol.
 ---
 
 ## 📚 Documentation
-- [`about.md`](about.md) — What is Lyvora and why it exists  
+- 
 -
 - [`03 Protocol.md`](03%20Protocol.md) — How the protocol works  
 - [`04 Architecture.md`](04%20Architecture.md) — Technical architecture and modules  
