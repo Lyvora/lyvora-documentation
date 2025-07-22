@@ -2,7 +2,7 @@
 
 **Decentralized Marketplace for Physical Products**
 
-Lyvora is a permissionless marketplace where anyone can buy and sell real-world products using cryptocurrency — without middlemen, censorship, or abusive fees.
+Lyvora is a permissionless marketplace where anyone can buy and sell real-world products using cryptocurrency. Without middlemen, censorship, or abusive fees.
 
 This repository contains the core documentation for the Lyvora protocol.
 
