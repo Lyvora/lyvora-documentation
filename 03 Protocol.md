@@ -118,19 +118,22 @@ How it works:
 ### Privacy Note:
 Tracking data and shipping addresses are stored off-chain. Optionally, a cryptographic hash of this data may be stored on-chain to preserve integrity.
 # Dispute Resolution 
-### Flow:
+Buyers can open disputes if the delivered product is incorrect, damaged, or incomplete.
 
-- The buyer opens a dispute and submits evidence.
+### Dispute Flow:
 
-- The seller has up to 48 hours to respond.
+- Buyer submits a reason and evidence (photos, videos, messages).
 
-- The decision is made based on predefined rules or mediation.
+- Seller has 48 hours to respond or submit counter-evidence.
 
-- The outcome determines whether funds are released or refunded.
+- The smart contract evaluates the evidence using transparent, weighted logic.
 
-- Reputation is updated on-chain.
+- If both sides submit inconclusive evidence, on-chain reputation is used as a tiebreaker.
 
-- The detailed return process will be defined later.
+- Disputes may be escalated to a decentralized DAO arbitration mechanism in the future.
+
+- Final decisions are enforced by the contract, and reputations are updated accordingly.
+
 
   #  Reputation System
   ### Each wallet maintains an immutable history that includes:
