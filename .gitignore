@@ -1,0 +1,26 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Node.js dependencies (if used in the future)
+node_modules/
+
+# Python cache
+__pycache__/
+
+# Static site build output (e.g. for Docusaurus or GitBook)
+build/
+dist/
+out/
+.cache/
+.temp/
+
+# Editor/IDE backups
+*.bak
+*.swp
