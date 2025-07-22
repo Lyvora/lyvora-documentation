@@ -83,25 +83,21 @@ The escrow system is the protocol’s core security mechanism.
 How it works:
 ## Detailed characteristics:
 
-- Each transaction generates a unique ID linked to the buyer’s and seller’s wallet addresses and the purchased product.
+- Each transaction generates a unique escrow ID linked to buyer and seller wallets.
 
-- Funds are automatically locked in the smart contract.
+- Funds remain locked until one of the following occurs:
 
-- Release occurs only after one of the following conditions:
+- Buyer manually confirms receipt.
 
-- Explicit confirmation by the buyer:
-Once the delivery status is “Delivered,” the buyer manually confirms receipt in the Lyvora dashboard. The system displays verification prompts:
+- The 48-hour window expires with no action taken.
 
-“Are you sure the product is correct?”
-“Please double-check before confirming.”
-If confirmed, payment is released immediately.
+- A dispute is opened by the buyer.
 
-- Opening a dispute:
-If the buyer detects an issue, they can open a dispute within the 48-hour window. Before proceeding, the system asks them to select a reason and confirm the action.
+- If no shipping activity is detected within 2 business days after payment, the system automatically refunds the buyer.
 
-- Expiration of the review period:
-If the buyer takes no action within 48 hours, the contract automatically releases the payment to the seller.
+- Accepted tokens: SUI, compatible stablecoins, and $LYV.
 
+- Product prices are displayed in USD. Conversions use oracle-based real-time exchange rates.
 ### Accepted tokens:
 
 - SUI
@@ -152,17 +148,17 @@ Tracking information and shipping addresses are not stored on-chain. They remain
 
 In the future, the protocol may issue reputation NFTs to attest to user credibility.
  # On-Chain Events
-### Events emitted by the protocol include:
+### The protocol emits public on-chain events such as:
 
-- Escrow creation.
+- Escrow creation
 
-- Payment status updates.
- 
-- Dispute initiation and resolution.
+- Payment updates
 
-- Ratings recorded.
+- Dispute initiation and resolution
 
-These events enable public auditability and transparency.
+- Feedback and ratings
+
+These events ensure full transparency and public auditability.
 # Future Roadmap: Oracle Integration
 Currently, delivery confirmation is handled through SaaS API integrations with logistics partners. In the future, Lyvora will integrate decentralized oracle providers compatible with the SUI blockchain to bring delivery confirmations fully on-chain.
 
@@ -179,23 +175,37 @@ This enhances transparency and automates escrow logic without relying on manual 
 
 
 # $LYV Token – Present and Future Uses
-### In addition to cashback, the $LYV token has strategic purposes:
+### In addition to cashback, the $LYV token has multiple uses:
 
-- Governance: voting on proposals.
+- Discounted fee payments
 
-- Staking: participating in incentive pools.
+- Staking to unlock premium features
 
-- Progressive discounts: reducing fees based on staking and token usage.
+- Participation in governance
+
+- Earning rewards for activity
+
+- Reputation NFTs and profile upgrades
+
+The $LYV token aligns incentives across buyers, sellers, and contributors.
+
+
   # Security and Audits
-- Smart contracts audited by independent entities.
+Security is a core part of the protocol’s design:
 
-- Contracts immutable after deployment.
+- Open-source smart contracts audited by independent security firms.
 
-- Automatic refund fallback in case of failures.
+- Immutable contract logic after deployment.
 
-- Multi-signature wallets for treasury funds.
+- Multisig wallets for treasury funds.
 
-- Bug bounty program planned before mainnet launch.
+- On-chain timers control all deadlines.
+
+- Fallback logic ensures refunds in case of failure.
+
+- Replay protection and unique escrow identifiers.
+
+- Public bug bounty program planned for testnet phase.
 
 
 
