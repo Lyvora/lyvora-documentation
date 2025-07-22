@@ -107,19 +107,16 @@ How it works:
 - $LYV (Lyvora’s native token), which offers exclusive benefits.
 
   # Tracking and Logistics System
-  The logistics layer operates via SaaS integrations connected to Lyvora’s backend.
-  ### Features:
+- Integrates with trusted logistics providers via SaaS APIs.
 
-- Automatic shipping cost calculation at checkout.
+- Shipping costs are automatically calculated at checkout.
 
-- Generation of ready-to-print shipping labels.
+- Tracking codes and shipping labels are generated within the platform.
 
-- Periodic status updates synchronized with the buyer’s dashboard.
+- Real-time delivery updates are visible in the buyer’s dashboard.
 
-- Real-time delivery tracking.
-
-Privacy Note:
-Tracking information and shipping addresses are not stored on-chain. They remain securely in the platform’s backend database. Optionally, a cryptographic hash of this data can be saved on-chain as proof of integrity.
+### Privacy Note:
+Tracking data and shipping addresses are stored off-chain. Optionally, a cryptographic hash of this data may be stored on-chain to preserve integrity.
 # Dispute Resolution 
 ### Flow:
 
