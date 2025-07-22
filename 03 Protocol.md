@@ -1,7 +1,7 @@
 #  Protocol
-The Lyvora protocol was designed to combine the benefits of decentralization with the practicality required for trading physical products. It addresses common issues found in traditional platforms, such as high fees, arbitrary account freezes, and excessive collection of personal data.
+The Lyvora protocol was designed to combine the benefits of decentralization with the practicality required for trading physical products. It addresses key failures found in traditional platforms, such as high fees, arbitrary account restrictions, and invasive data collection.
 
-Through auditable smart contracts and an automatic escrow custody system, Lyvora enables secure transactions without financial intermediaries. At the same time, it transparently integrates SaaS logistics services, making real-world delivery and tracking possible.
+Through auditable smart contracts and an automatic escrow custody system, Lyvora enables secure transactions without financial intermediaries. At the same time, it transparently integrates SaaS logistics services to enable real-world delivery and tracking.
 
 ### The protocol’s philosophy combines:
 
@@ -15,123 +15,72 @@ Through auditable smart contracts and an automatic escrow custody system, Lyvora
 
  # Transaction Flow
 
- ### **Flow Steps**
+### Step-by-Step 
+1. Wallet Connection
+Users access the platform by connecting their crypto wallet.
+No KYC or traditional account creation is required.
 
-1️⃣ **Login with Crypto Wallet**
+2. Product Selection
+Buyers browse listings and select a product.
+Prices are shown in USD for international clarity.
 
-Users access the platform by connecting their digital wallet.
+3. Internal Chat
+Buyers can message sellers to negotiate.
+Finalized offers generate IPFS hashes linked on-chain for integrity.
 
-**No mandatory KYC or traditional account registration is required.**
+4. Payment
+Buyers complete the purchase using SUI, compatible stablecoins, or $LYV.
+Payments can be made via QR code or connected wallet.
 
-⬇️
+5. Escrow Lock
+Funds are automatically locked in the smart contract escrow system.
 
-2️⃣ **Product Selection**
+6. Shipping & Tracking
+The system integrates with logistics APIs to register tracking data.
 
-The buyer browses listings and selects the desired product.
+7. Shipping Notification
+The buyer is notified when the product is shipped.
 
-All product prices are shown in US dollars (USD) as a reference, providing clear and consistent information for international buyers.
+8. Live Delivery Monitoring
+Delivery progress is monitored automatically via API or oracle.
 
- ⚠️”All product prices are shown in US dollars (USD) as a reference, providing clear and consistent information for international buyers.”
+9. Delivery Confirmation (System-Detected)
+When the delivery is confirmed by the logistics provider or oracle, the order is marked as "Delivered."
 
-⬇️
+10. 48-Hour Review Window Begins
+A review window opens automatically.
+During this time, the buyer can take action if needed.
 
-3️⃣ **Internal Chat and Negotiation**
+11. Buyer Action
+The buyer may:
+- Manually confirm receipt → funds are released immediately to the seller.
 
-The buyer can message the seller before purchasing.
+- Open a dispute if there is a problem (e.g., wrong or damaged product).
 
-While the chat is stored off-chain, **key records (such as the final offer) generate IPFS hashes linked on-chain**, ensuring the integrity of negotiations.
+- Take no action → funds are automatically released to the seller after 48 hours.
 
-⬇️
+12. Feedback & Ratings
+After settlement, both buyer and seller can leave feedback.
+All reputation data is stored immutably on-chain.
 
-4️⃣ **Purchase and Payment**
-
-The buyer clicks **“Buy”** and completes payment using **SUI, stablecoins, or the Lyvora token ($LYV)**.
-
-Payment can be made via **QR code or connected wallet**.
-
-⬇️
-
-5️⃣ **Escrow Contract Lock**
-
-Funds are automatically transferred to the **escrow smart contract**, where they remain locked until all conditions are met.
-
-⬇️
-
-6️⃣ **Automatic Tracking**
-
-The system synchronizes delivery status with the logistics provider automatically.
-
-⬇️
-
-7️⃣ **Buyer Notification**
-
-The buyer receives a notification that the product has been shipped.
-
-⬇️
-
-8️⃣ **Direct Tracking**
-
-The buyer can monitor the delivery status **directly within the platform**, in real time.
-
-⬇️
-
-9️⃣ **“Delivered” Status**
-
-When the carrier confirms delivery, the order status updates to **“Delivered.”**
-
-⬇️
-
-🔟 **Receipt Confirmation**
-
-The buyer marks the order as **“Received”** on the platform.
-
-⬇️
-
-1️⃣1️⃣ **48-Hour Review Period**
-
-After marking as received, a **48-hour window** begins during which the buyer can:
-
-- Confirm the product is correct
-- Open a dispute
-
-Automatic reminder messages are displayed during this period.
-
-⬇️
-
-1️⃣2️⃣ **Buyer Decision**
-
-### Buyer Decision
-
-| Situation         | Action Taken      | Result                   |
-|-------------------|-------------------|---------------------------|
-| ✅ Product OK      | Confirms receipt  | 💰 Payment is released     |
-| ❌ Product Issue   | Opens dispute     | ⚠️ Dispute mode activated  |
+13. Cashback & Rewards
+Buyers receive cashback or token-based rewards based on campaign rules.
 
 
-⬇️
 
-1️⃣3️⃣ **Transaction Review**
 
-After completion, buyer and seller leave feedback.
 
-Reputation is recorded immutably on the blockchain.
-
-⬇️
-
-1️⃣4️⃣ **Cashback and Rewards**
-
-The buyer automatically receives cashback and any applicable token rewards according to the campaign rules.
 
 ---
 
-⚡ **Scalability and Efficiency**
+ **Scalability and Efficiency**
 
 The entire flow is designed to operate with **low transaction fees** and high scalability, supporting thousands of users simultaneously.
 
 # Escrow Module
+The escrow system is the protocol’s core security mechanism.
 
-Escrow is the central security component of the protocol.
-
+How it works:
 ## Detailed characteristics:
 
 - Each transaction generates a unique ID linked to the buyer’s and seller’s wallet addresses and the purchased product.
