@@ -14,7 +14,7 @@ Lyvora is built using a modular stack that combines on-chain logic with off-chai
 
 - **Blockchain:** SUI  
 - **Smart Contracts:** Move language  
-- **Frontend:** React (with Tailwind CSS and Vite)  
+- **Frontend:** Next.js 
 - **Backend Services:** Node.js (handles API integration and off-chain processes)  
 - **Integrations:**  
   - **SaaS APIs** for shipping, delivery tracking, and logistics status  
